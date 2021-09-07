@@ -12,8 +12,7 @@ interactive, meaning that the user can control some instruments and visuals duri
 possible thanks to a Kinect v1 and a Kinect v2 that were placed in the control area, behind the projector, and track
 body of the user.
 
-The performance, audio and visuals, is divided into three parts: Childhood, Adventure and Universo. They represent
-stages of our life, a journey that most of us probably have experienced.
+The performance, audio and visuals, is divided into three parts: Childhood, Adventure and Universo. 
 
 The music is played through SuperCollider, a software to code live audio. It is divided into two parts: the background 
 music, which is played through each of the parts from start to end, and live interactive instruments that are added during the performance. 
