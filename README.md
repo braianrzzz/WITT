@@ -29,21 +29,21 @@ sent OSC messages to SuperCollider about the position of some body parts. For th
 hand was tracked, as well as head hits (forward, right and left) and left hand hits (forward and left). With the hits, 
 the user can choose which instrument to control, the mapping is as follows:
 
-Head Forward hit ---> Select the Pad<ul>
-Head Right hit ---> Select the Theremin<ul>
-Head Left hit ---> Select the Low Pass Filter<ul>
-Left Hand Forward hit ---> Select the Sample Pan<ul>
-Left Hand Forward hit ---> Deselect all<ul>
+Head Forward hit ---> Select the Pad<br>
+Head Right hit ---> Select the Theremin<br>
+Head Left hit ---> Select the Low Pass Filter<br>
+Left Hand Forward hit ---> Select the Sample Pan<br>
+Left Hand Forward hit ---> Deselect all<br>
 
 When the user has selected the instruments, the right hand is used to control the parameters of that instrument. The
 mapping is as follows:
 
-Theremin ---> right hand X axis position: amplitude<ul>
-              right hand Y axis position: frequency<ul>
-Pad ---> right hand X axis position: amplitude<ul>
-         right hand Y axis position: frequency<ul>
-LPF ---> right hand X axis position: cut-off frequency<ul>
-Pan ---> right hand X axis position: position on stereo field ranging from 1 (Right channel) to -1 (Left channel)<ul>
+Theremin ---> right hand X axis position: amplitude<br>
+              right hand Y axis position: frequency<br>
+Pad ---> right hand X axis position: amplitude<br>
+         right hand Y axis position: frequency<br>
+LPF ---> right hand X axis position: cut-off frequency<br>
+Pan ---> right hand X axis position: position on stereo field ranging from 1 (Right channel) to -1 (Left channel)<br>
 
 Madmapper and Processing were used for the visuals and lights. Visuals can be divided into two parts: a background
 video and some interactive effects/images that are displayed during the performance. Madmapper contained
